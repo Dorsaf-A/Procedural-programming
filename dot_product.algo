@@ -1,4 +1,6 @@
 PROCEDURE dot_product(VAR v1,v2 : ARRAY_OF INTEGER, VAR ps : INTEGER)
+VAR 
+    i : INTEGER;
 BEGIN
     IF (v1.length <> v2.length) THEN
         WRITE("this scalar product can not be calculated");
